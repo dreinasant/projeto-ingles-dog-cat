@@ -83,6 +83,7 @@ export default class PetLove extends Component {
             <button className="button2">Saiba mais</button>
             <img className="dog3" src="https://img.freepik.com/fotos-gratis/imagem-de-adoravel-cachorrinho-golden-retriever-branco-brilhante-em-um-cobertor-azul_501731-1777.jpg?w=900" alt="cachora"/>
             <button className="button3">Saiba mais</button>
+            
             <button className="boton main2" onClick={this.catList}>CAT'S CONFIRA CLICANDO AQUI</button>
             <p>{this.state.list2}</p>
             <img className="cat1" src="https://img.freepik.com/fotos-gratis/adoravel-gatinho-domestico-com-espaco-de-copia_23-2149167096.jpg?t=st=1646230151~exp=1646230751~hmac=911ff87e8734ce34f190e876f1c2a216b442d1f45c2d7537c20be0b7b26c07c0&w=900" alt="cat"/>
@@ -104,6 +105,7 @@ export default class PetLove extends Component {
               <img className="contain-petisco" src={Petisco} alt="petisco"/> 
               <p className="intro-p">Nós prezamos pela adoção responsável e, para ajudar os novos tutores, fornecemos orientações e suporte antes e por no mínimo seis meses após a adoção.</p>
             </div>
+            
             <div className="intro-final">
               <div className="footer-p">
               <h2>ADOTE</h2>

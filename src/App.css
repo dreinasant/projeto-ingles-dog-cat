@@ -32,15 +32,15 @@ li:hover{
   cursor: pointer;
   text-shadow: 0px 0px 0.6px black;
 }
-.intro button{
-  margin-left: 8vh;
-  color: black;
-  border: white;
-}
 .intro{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.intro button{
+  margin-left: 8vh;
+  color: black;
+  border: white;
 }
 .icon-entrar{
   width: 1.5%;
@@ -188,6 +188,8 @@ p {
   position: relative;
   left: 90px;
   top: 15px;
+  border-radius: 50%;
+  border: solid 2px white;
 }
 .button1{
   position: relative;
@@ -218,6 +220,8 @@ p {
   position: relative;
   left: 105px;
   top: 15px;
+  border-radius: 50%;
+  border: solid 2px white;
 }
 .button2{
   position: relative;
@@ -248,6 +252,8 @@ p {
   position: relative;
   left: 95px;
   top:15px;
+  border-radius: 50%;
+  border: solid 2px white;
 }
 .button3{
   position: relative;
@@ -342,6 +348,8 @@ p {
   position: relative;
   left: 85px;
   top: 15px;
+  border-radius: 50%;
+  border: solid 2px white;
 }
 .boton1{
   position: relative;
@@ -372,6 +380,8 @@ p {
   position: relative;
   left: 65px;
   top: 15px;
+  border-radius: 50%;
+  border: solid 2px white;
 }
 .boton2{
   position: relative;
@@ -402,6 +412,8 @@ p {
   position: relative;
   left: 95px;
   top:15px;
+  border-radius: 50%;
+  border: solid 2px white;
 }
 .boton3{
   position: relative;
@@ -456,15 +468,7 @@ p {
   text-align: center;
   box-shadow:  0px 0px 0 black,  0px 13px 14px -11px black;
 }
-.box-p{
-  position: relative;
-  left: 170px;
-  top: 46px;
-  color: black;
-  font-size: 1.1em;
-  font-family: sans-serif;
-  width: 60%;
-}
+
 .box-pata-cat{
   width: 2.3%;
   position: absolute;
@@ -492,6 +496,15 @@ p {
   left: 143vh;
   top: 1vh;
   transform: rotate(-32deg);
+}
+.box-p{
+  position: relative;
+  left: 170px;
+  top: 46px;
+  color: black;
+  font-size: 1.1em;
+  font-family: sans-serif;
+  width: 60%;
 }
 .img-dog-cat{
   width: 20%;
