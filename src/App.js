@@ -3,12 +3,14 @@ import './App.css';
 import Onda from './assets/onda.png';
 import Dogcat from './assets/dog-cat.jpg';
 import Logo from './assets/logo.png';
+import IconEntrar from './assets/icon-entrar.png';
 import Petisco from './assets/petisco.png';
 import Pata from './assets/pata.jpg';
 import Pata2 from './assets/pata-2.jpg';
 import Patacat from './assets/pata-cat.jpg';
 import Patacat2 from './assets/pata-cat2.jpg';
 import Logoo from './assets/logo.png';
+
 
 
 export default class PetLove extends Component {
@@ -63,7 +65,7 @@ export default class PetLove extends Component {
             <li>Contato</li>
           </ul>
           <div className="intro">
-          <img className="icon-entrar" src="https://cdn-icons.flaticon.com/png/512/4519/premium/4519678.png?token=exp=1646256070~hmac=a5c0292d17610100334e62320c669513" alt="icon-entar"/>
+          <img className="icon-entrar" src={IconEntrar} alt="icon-entar"/>
           <button className="box-button1">Entrar</button>
           <button className="box-button2">Cadastre-se</button>
           </div>
